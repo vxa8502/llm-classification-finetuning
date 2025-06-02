@@ -20,7 +20,7 @@ This project employs a siamese-like architecture with a shared DeBERTa-v3 backbo
 
 ## Dataset
 
-The dataset is from the [LLM Classification Finetuning Kaggle competition](link-to-competition-if-available).  It includes:
+The dataset is from the [LLM Classification Finetuning Kaggle competition](https://www.kaggle.com/competitions/llm-classification-finetuning).  It includes:
 
 * `train.csv`: Contains prompts, responses from two models (model_a and model_b), and the human judge's preferred winner (winner_model_a, winner_model_b, or winner_tie).
 * `test.csv`: Contains prompts and responses, requiring predictions for the preferred winner.
